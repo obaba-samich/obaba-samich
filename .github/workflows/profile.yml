@@ -8,6 +8,8 @@ on:
     paths:
       - profile.json
       - .profile/icons.json
+      - cycle.json
+      - scripts/cycle.mjs
 
 permissions:
   contents: write
@@ -20,3 +22,8 @@ jobs:
       - uses: metawka/expressive-profile@v1
         with:
           token: ${{ secrets.PROFILE_TOKEN || github.token }}
+      - name: Cycling subtitle
+        run: |
+          node scripts/cycle.mjs
+          git add assets
+          git diff --cached --quiet || (git commit -m "Cycling subtitle" && git push)

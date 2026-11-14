@@ -11,8 +11,8 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Andrew (obaba)",
-    "subtitle": "making stuff\nclaudeing\nskating\nalive and well",
-    "typing": true,
+    "subtitle": "",
+    "typing": false,
     "avatarShape": "cookie12",
     "chips": [
       { "icon": "verified", "label": "CoordClipper owner" },
