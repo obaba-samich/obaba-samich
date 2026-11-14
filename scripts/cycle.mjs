@@ -3,7 +3,7 @@
 // empty and this script draws the cycling lines from cycle.json instead.
 // Safe to run repeatedly: a hero that already has the loop is left alone.
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 
 const { lines, type = 0.09, erase = 0.045, hold = 1.8, gap = 0.4 } = JSON.parse(readFileSync("cycle.json", "utf8"));
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -50,14 +50,24 @@ for (const mode of ["dark", "light"]) {
   console.log("cycle added to", file);
 }
 
-// Browsers keep showing an old hero image under the same URL, so tag each hero
-// link in the README with a hash of the file. A changed image gets a new URL.
+// Browsers keep showing an old hero image under the same URL, and GitHub's image
+// redirect drops query strings, so the README points at a copy whose filename
+// carries a hash of the content. A changed image gets a new filename.
+const versioned = {};
+for (const mode of ["dark", "light"]) {
+  const file = `assets/hero-${mode}.svg`;
+  if (!existsSync(file)) continue;
+  const name = `assets/hero-${mode}-${createHash("sha1").update(readFileSync(file)).digest("hex").slice(0, 10)}.svg`;
+  for (const f of readdirSync("assets")) {
+    const old = `assets/${f}`;
+    if (new RegExp(`^hero-${mode}-[0-9a-f]{10}\\.svg$`).test(f) && old !== name) unlinkSync(old);
+  }
+  if (!existsSync(name)) copyFileSync(file, name);
+  versioned[mode] = name;
+}
 if (existsSync("README.md")) {
   const readme = readFileSync("README.md", "utf8");
-  const tagged = readme.replace(/assets\/hero-(dark|light)\.svg(\?v=[0-9a-f]+)?/g, (_, mode) => {
-    const file = `assets/hero-${mode}.svg`;
-    return existsSync(file) ? `${file}?v=${createHash("sha1").update(readFileSync(file)).digest("hex").slice(0, 10)}` : file;
-  });
+  const tagged = readme.replace(/assets\/hero-(dark|light)(-[0-9a-f]{10})?\.svg(\?v=[0-9a-f]+)?/g, (m, mode) => versioned[mode] ?? m);
   if (tagged !== readme) {
     writeFileSync("README.md", tagged);
     console.log("hero links versioned in README.md");
