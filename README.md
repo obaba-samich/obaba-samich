@@ -1,6 +1,6 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark-7bec275f73.svg"><img src="assets/hero-light-0a6c62d90e.svg" width="100%" alt="Hi, I&#x27;m Andrew (obaba)"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="Hi, I&#x27;m Andrew (obaba)"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"><img src="assets/about-light.svg" width="100%" alt="About me"></picture>
 
