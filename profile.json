@@ -48,8 +48,8 @@
     ]
   },
   "projects": {
-    "source": "pinned",
-    "repos": ["coordclipper", "edgework"],
+    "source": "manual",
+    "repos": ["coordclipper", "edgework", "roblox-blender-bridge"],
     "overrides": {},
     "empty": "No description yet.",
     "fork": "Fork"
