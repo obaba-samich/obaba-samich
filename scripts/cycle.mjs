@@ -2,6 +2,7 @@
 // The generator only types its subtitle once, so profile.json keeps the subtitle
 // empty and this script draws the cycling lines from cycle.json instead.
 // Safe to run repeatedly: a hero that already has the loop is left alone.
+import { createHash } from "node:crypto";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const { lines, type = 0.09, erase = 0.045, hold = 1.8, gap = 0.4 } = JSON.parse(readFileSync("cycle.json", "utf8"));
@@ -47,4 +48,18 @@ for (const mode of ["dark", "light"]) {
   svg = svg.replace(/<\/svg>\s*$/, loop(textFill, cursorFill) + "</svg>");
   writeFileSync(file, svg);
   console.log("cycle added to", file);
+}
+
+// Browsers keep showing an old hero image under the same URL, so tag each hero
+// link in the README with a hash of the file. A changed image gets a new URL.
+if (existsSync("README.md")) {
+  const readme = readFileSync("README.md", "utf8");
+  const tagged = readme.replace(/assets\/hero-(dark|light)\.svg(\?v=[0-9a-f]+)?/g, (_, mode) => {
+    const file = `assets/hero-${mode}.svg`;
+    return existsSync(file) ? `${file}?v=${createHash("sha1").update(readFileSync(file)).digest("hex").slice(0, 10)}` : file;
+  });
+  if (tagged !== readme) {
+    writeFileSync("README.md", tagged);
+    console.log("hero links versioned in README.md");
+  }
 }

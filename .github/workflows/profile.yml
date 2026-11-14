@@ -25,5 +25,5 @@ jobs:
       - name: Cycling subtitle
         run: |
           node scripts/cycle.mjs
-          git add assets
+          git add assets README.md
           git diff --cached --quiet || (git commit -m "Cycling subtitle" && git push)
