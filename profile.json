@@ -15,7 +15,7 @@
     "typing": false,
     "avatarShape": "cookie12",
     "chips": [
-      { "icon": "verified", "label": "CoordClipper owner" },
+      { "icon": "bolt", "label": "tool maker" },
       { "icon": "code", "label": "Unity · Luau · Swift" }
     ]
   },
