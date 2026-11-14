@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "login": "obaba-samich",
+  "seed": "#7E57C2",
+  "seedFromAvatar": false,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": ["hero", "about", "stack", "projects", "stats", "streak", "wave", "socials", "buttons"],
+  "hidden": ["socials", "buttons"],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Andrew (obaba)",
+    "subtitle": "making stuff\nclaudeing\nskating\nalive and well",
+    "typing": true,
+    "avatarShape": "cookie12",
+    "chips": [
+      { "icon": "verified", "label": "CoordClipper owner" },
+      { "icon": "code", "label": "Unity · Luau · Swift" }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      { "icon": "favorite", "label": "I love sports and coding" },
+      { "icon": "group", "label": "Very extroverted" },
+      { "icon": "public", "label": "Almost never home!" },
+      { "icon": "rocket_launch", "label": "I love contributing and making new tools never seen before!" }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          { "icon": "brand:unity", "label": "Unity" },
+          { "icon": "brand:luau", "label": "Luau" },
+          { "icon": "brand:swift", "label": "Swift" }
+        ]
+      },
+      {
+        "title": "Also",
+        "items": [
+          { "icon": "brand:cplusplus", "label": "C++ / C#" }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "pinned",
+    "repos": ["coordclipper", "edgework"],
+    "overrides": {},
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": { "items": [], "variant": "chip", "fill": "tonal", "card": true },
+  "buttons": { "items": [] }
+}
