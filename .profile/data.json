@@ -1,7 +1,7 @@
 {
- "key": "ba34aa97",
+ "key": "ed5a062b",
  "stars": 0,
- "contributions": 77,
+ "contributions": 78,
  "repos": 5,
  "followers": 1,
  "languages": [
@@ -16,6 +16,10 @@
   [
    "Python",
    8779
+  ],
+  [
+   "JavaScript",
+   2362
   ]
  ],
  "days": [
@@ -120,7 +124,7 @@
     "today": false
    },
    {
-    "c": 9,
+    "c": 10,
     "day": 13,
     "today": false
    },
@@ -171,7 +175,7 @@
    "text": "my readme and stuff",
    "fork": false,
    "stars": 0,
-   "language": null,
+   "language": "JavaScript",
    "topics": []
   },
   {
