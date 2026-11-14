@@ -1,0 +1,223 @@
+{
+ "key": "ba34aa97",
+ "stars": 0,
+ "contributions": 77,
+ "repos": 5,
+ "followers": 1,
+ "languages": [
+  [
+   "Swift",
+   784296
+  ],
+  [
+   "Java",
+   176191
+  ],
+  [
+   "Python",
+   8779
+  ]
+ ],
+ "days": [
+  [
+   {
+    "c": 0,
+    "day": 25,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 26,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 27,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 28,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 29,
+    "today": false
+   },
+   {
+    "c": 4,
+    "day": 30,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 31,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 1,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 2,
+    "today": false
+   },
+   {
+    "c": 2,
+    "day": 3,
+    "today": false
+   },
+   {
+    "c": 3,
+    "day": 4,
+    "today": false
+   },
+   {
+    "c": 3,
+    "day": 5,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 6,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 7,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 8,
+    "today": false
+   },
+   {
+    "c": 5,
+    "day": 9,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 10,
+    "today": false
+   },
+   {
+    "c": 11,
+    "day": 11,
+    "today": false
+   },
+   {
+    "c": 27,
+    "day": 12,
+    "today": false
+   },
+   {
+    "c": 9,
+    "day": 13,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 14,
+    "today": true
+   }
+  ]
+ ],
+ "streak": {
+  "current": 4,
+  "longest": 4
+ },
+ "pins": [
+  {
+   "name": "coordclipper",
+   "url": "https://github.com/obaba-samich/coordclipper",
+   "text": "/tp without OP. Meteor Client addon",
+   "fork": false,
+   "stars": 0,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "edgework",
+   "url": "https://github.com/obaba-samich/edgework",
+   "text": "Free iOS training app for hockey, track & field and fitness: daily workout generator, 285 exercises with 3D demos, food log, GPS runs.",
+   "fork": false,
+   "stars": 0,
+   "language": "Swift",
+   "topics": [
+    "fitness",
+    "hockey",
+    "ios",
+    "sideload",
+    "swiftui",
+    "track-and-field",
+    "training-app",
+    "workout"
+   ]
+  }
+ ],
+ "all": [
+  {
+   "name": "obaba-samich",
+   "url": "https://github.com/obaba-samich/obaba-samich",
+   "text": "my readme and stuff",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": []
+  },
+  {
+   "name": "edgework",
+   "url": "https://github.com/obaba-samich/edgework",
+   "text": "Free iOS training app for hockey, track & field and fitness: daily workout generator, 285 exercises with 3D demos, food log, GPS runs.",
+   "fork": false,
+   "stars": 0,
+   "language": "Swift",
+   "topics": [
+    "fitness",
+    "hockey",
+    "ios",
+    "sideload",
+    "swiftui",
+    "track-and-field",
+    "training-app",
+    "workout"
+   ]
+  },
+  {
+   "name": "MineLights",
+   "url": "https://github.com/obaba-samich/MineLights",
+   "text": "MineLights is a Minecraft mod that brings RGB lighting integrations to Minecraft Java Edition and Horizon - OpenRGB, Corsair iCUE, Logitech G HUB, Razer Chroma, MSI Mystic Light, ASUS Aura, SteelSeries GameSense, and Wooting.",
+   "fork": true,
+   "stars": 0,
+   "language": "Java",
+   "topics": []
+  },
+  {
+   "name": "Voidstrap",
+   "url": "https://github.com/obaba-samich/Voidstrap",
+   "text": "Voidstrap is a simple yet advanced fork of Bloxstrap, advanced customization and improvements.",
+   "fork": true,
+   "stars": 0,
+   "language": "C#",
+   "topics": []
+  },
+  {
+   "name": "coordclipper",
+   "url": "https://github.com/obaba-samich/coordclipper",
+   "text": "/tp without OP. Meteor Client addon",
+   "fork": false,
+   "stars": 0,
+   "language": "Java",
+   "topics": []
+  }
+ ]
+}
