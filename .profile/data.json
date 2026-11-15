@@ -1,17 +1,17 @@
 {
- "key": "fe508d87",
+ "key": "b7d559c9",
  "stars": 0,
- "contributions": 88,
+ "contributions": 102,
  "repos": 6,
  "followers": 2,
  "languages": [
   [
    "Swift",
-   786923
+   870720
   ],
   [
    "Python",
-   193160
+   192597
   ],
   [
    "Java",
@@ -31,43 +31,6 @@
   ]
  ],
  "days": [
-  [
-   {
-    "c": 0,
-    "day": 25,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 26,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 27,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 28,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 29,
-    "today": false
-   },
-   {
-    "c": 4,
-    "day": 30,
-    "today": false
-   },
-   {
-    "c": 1,
-    "day": 31,
-    "today": false
-   }
-  ],
   [
    {
     "c": 0,
@@ -137,10 +100,23 @@
     "today": false
    },
    {
-    "c": 2,
+    "c": 16,
     "day": 14,
-    "today": true
+    "today": false
    }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 15,
+    "today": true
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
   ]
  ],
  "streak": {
