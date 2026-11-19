@@ -6,8 +6,21 @@
   "scheme": "tonalSpot",
   "motion": true,
   "iconFill": true,
-  "order": ["hero", "about", "stack", "projects", "stats", "streak", "wave", "socials", "buttons"],
-  "hidden": ["socials", "buttons"],
+  "order": [
+    "hero",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "socials",
+    "buttons"
+  ],
+  "hidden": [
+    "socials",
+    "buttons"
+  ],
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Andrew (obaba)",
@@ -15,17 +28,35 @@
     "typing": false,
     "avatarShape": "cookie12",
     "chips": [
-      { "icon": "bolt", "label": "tool maker" },
-      { "icon": "code", "label": "Unity · Luau · Swift" }
+      {
+        "icon": "bolt",
+        "label": "tool maker"
+      },
+      {
+        "icon": "code",
+        "label": "Unity · Luau · Swift"
+      }
     ]
   },
   "about": {
     "title": "About me",
     "items": [
-      { "icon": "favorite", "label": "I love sports and coding" },
-      { "icon": "group", "label": "Very extroverted" },
-      { "icon": "public", "label": "Almost never home!" },
-      { "icon": "rocket_launch", "label": "I love contributing and making new tools never seen before!" }
+      {
+        "icon": "favorite",
+        "label": "I love sports and coding"
+      },
+      {
+        "icon": "group",
+        "label": "Very extroverted"
+      },
+      {
+        "icon": "public",
+        "label": "Almost never home!"
+      },
+      {
+        "icon": "rocket_launch",
+        "label": "I love contributing and making new tools never seen before!"
+      }
     ]
   },
   "stack": {
@@ -34,22 +65,39 @@
       {
         "title": "Main",
         "items": [
-          { "icon": "brand:unity", "label": "Unity" },
-          { "icon": "brand:luau", "label": "Luau" },
-          { "icon": "brand:swift", "label": "Swift" }
+          {
+            "icon": "brand:unity",
+            "label": "Unity"
+          },
+          {
+            "icon": "brand:luau",
+            "label": "Luau"
+          },
+          {
+            "icon": "brand:swift",
+            "label": "Swift"
+          }
         ]
       },
       {
         "title": "Also",
         "items": [
-          { "icon": "brand:cplusplus", "label": "C++ / C#" }
+          {
+            "icon": "brand:cplusplus",
+            "label": "C++ / C#"
+          }
         ]
       }
     ]
   },
   "projects": {
     "source": "manual",
-    "repos": ["coordclipper", "edgework", "roblox-blender-bridge"],
+    "repos": [
+      "coordclipper",
+      "edgework",
+      "roblox-blender-bridge",
+      "clipdeck"
+    ],
     "overrides": {},
     "empty": "No description yet.",
     "fork": "Fork"
@@ -71,6 +119,13 @@
     "longest": "Longest this year",
     "days": "days"
   },
-  "socials": { "items": [], "variant": "chip", "fill": "tonal", "card": true },
-  "buttons": { "items": [] }
+  "socials": {
+    "items": [],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": []
+  }
 }
