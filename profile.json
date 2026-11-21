@@ -91,7 +91,7 @@
     ]
   },
   "projects": {
-    "source": "manual",
+    "source": "pinned",
     "repos": [
       "coordclipper",
       "edgework",
