@@ -1,7 +1,7 @@
 {
- "key": "e10b6ebe",
+ "key": "d6d0c80b",
  "stars": 0,
- "contributions": 460,
+ "contributions": 471,
  "repos": 9,
  "followers": 2,
  "languages": [
@@ -11,11 +11,11 @@
   ],
   [
    "TypeScript",
-   357868
+   405104
   ],
   [
    "Python",
-   341611
+   342198
   ],
   [
    "Java",
@@ -23,7 +23,7 @@
   ],
   [
    "CSS",
-   67693
+   68698
   ],
   [
    "Lua",
@@ -35,43 +35,6 @@
   ]
  ],
  "days": [
-  [
-   {
-    "c": 0,
-    "day": 1,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 2,
-    "today": false
-   },
-   {
-    "c": 4,
-    "day": 3,
-    "today": false
-   },
-   {
-    "c": 6,
-    "day": 4,
-    "today": false
-   },
-   {
-    "c": 3,
-    "day": 5,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 6,
-    "today": false
-   },
-   {
-    "c": 6,
-    "day": 7,
-    "today": false
-   }
-  ],
   [
    {
     "c": 1,
@@ -141,10 +104,23 @@
     "today": false
    },
    {
-    "c": 24,
+    "c": 35,
     "day": 21,
-    "today": true
+    "today": false
    }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 22,
+    "today": true
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
   ]
  ],
  "streak": {
